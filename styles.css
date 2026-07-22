@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: Geomini, Helvetica, sans-serif;
+}
+.postcard {
+	background: white;
+	width: 600px;
+	height: 500px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 150px;
+	height: 150px;
+}
+.postcard-header h1 {
+	width: 1500px;
+	height: 100px;
+	font-size: 50px;
+	padding-top: 0;
+	margin-left: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	margin-left: 5px;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	width: 50%;
+	padding: 0 10px;
+	font-size: larger;
+	text-align: justify;
+	text-justify: inter-word;
+}
+input {
+	width: 100%;
+	padding: 5px;
+	margin: 3px 0;
+	border: 0;
+	border-bottom: 2px solid #a1f406;
+	font-family: Geomini;
+	font-size: medium;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	padding: 30px;
+	font-size: 20px;
+	font-family: Geomini;
+	background-color: rgb(127, 247, 6);
+	color: black;
+}
+
+button:hover {
+	background-color: #333;
+	color: #fff;
+	transform: translateY(-3px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
